@@ -1,0 +1,135 @@
+body {
+	text-align : center;
+	font-family : Tahoma;
+	font-size : 14px;
+	background-color : black;
+	margin: 0;
+	/* toe te voegen */
+}
+.all {
+	text-align : left;
+	width : 700px;
+	margin : 100px auto;
+	min-height : 600px;
+	background-image : url(bg.jpg);
+	border : 4px solid red;
+	position: relative;
+
+}
+main{
+	display: block;
+
+}
+article{
+	display: block;
+	position: absolute;
+	top: 340px;
+  background: rgba(240, 240, 240,0.3);
+	margin: 0;
+
+}
+
+p, h1{
+
+margin:0;
+
+}
+nav{
+	background: #e8e8e8;
+	justify-content: center;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+nav a:hover{
+	font-style: bold;
+	color: black;
+	background: white;
+}
+
+#title{
+	position: absolute;
+	top:-75px;
+
+}
+
+#saw{
+	position: absolute;
+	top: 70px;
+	left: -50px;
+
+}
+
+#saw:hover{
+	top: 70px;
+	left: -40px;
+}
+#pincers{
+	position: absolute;
+	top: 200px;
+	left: 550px;
+}
+#pincers:hover{
+	left: 540px;
+}
+#screwdriver{
+	position: absolute;
+	top: 100px;
+	left: 550px;
+}
+#screwdriver:hover{
+	left: 540px;
+}
+#toolbox{
+	position: absolute;
+	top: 150px;
+	left: 200px;
+}
+#toolbox ul{
+	visibility: hidden;
+	position: absolute;
+	top: 100px;
+		text-decoration: none;
+	list-style-type: none;
+}
+#toolbox ul li{
+	background: white;
+	border: 1px solid black;
+	text-decoration: none;
+}
+#toolbox ul li :hover{
+	background: yellow;
+}
+
+#toolbox:hover ul{
+	visibility: visible;
+}
+#hammer{
+	position: absolute;
+	left: 450px;
+	top: -75px;
+	color:
+
+}
+#hammer:hover{
+	top: -65px;
+}
+
+#humanfactor_meaning{
+	display: none;
+	background: white;
+	border: 1px solid black;
+	text-decoration: none;
+	position: absolute;
+	left: 350px;
+
+}
+
+#humanfactor:hover #humanfactor_meaning {
+	display: block;
+}
+
+#humanfactor{
+	color: blue;
+}
